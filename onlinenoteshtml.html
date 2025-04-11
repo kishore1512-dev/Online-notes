@@ -1,0 +1,47 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Notes</title>
+  <link rel="stylesheet" href="onlinenotesstyle.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="navbar">
+         <h1 class="navbarheading">Online Notes</h1>
+    </div>
+    
+    <div class="container">
+           <div class="book-container">
+             <h2>Rich dad Poor dad</h2>
+             <h3>Robert</h3>
+             <p>
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                 Pellentesque nisi sapien, imperdiet eget tempor sit amet, tempus nec massa.
+             </p>
+             <button onclick="deletenote(event)">Delete</button>
+           </div> 
+    </div>
+
+   <div class="popup-overlay"></div>
+
+   <div class="popup-box">
+     <h2>add notes</h2>
+     <form>
+       <input type="text" placeholder="title" id="popup-title">
+       <input type="text" placeholder="subheading" id="popup-subhead">   
+       <textarea placeholder="description" id="popup-des"></textarea>
+       <button class="add-notes-button" id="add-notes-id">ADD</button>
+       <button class="cancel-notes-button" id="cancel-notes-id">CANCEL</button>
+     </form>         
+   </div>
+  
+    
+   <button class="add-button" id="add-popup-button">+</button>
+   
+<script src="onlinenotesscript.js"></script>
+</body>
+</html>

@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+  font-family: "Winky Rough", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  background-color:#DEF2F1;
+}
+
+.navbar{
+      background-color:#17252A;
+      padding:10px;
+}
+
+.navbarheading{
+      color:#DEF2F1;
+}
+ 
+.container{
+     padding:10px;
+     
+}
+
+.book-container{
+     padding:15px;
+     width:25%;
+     background-color:#2B7A78;
+     border-radius:10px;
+     color:#DEF2F1;
+     margin:30px;
+     display:inline-block;
+     vertical-align:top;
+}
+
+.book-container h2{
+    color:#17252A;
+}
+
+.book-container button{
+   background-color:#17252A;
+   color:#DEF2F1;
+   border-radius:10px;
+   padding:7px;
+   padding-right:10px;
+   padding-left:10px;
+   margin-top:7px;
+   border:none;
+   font-weight: bold;
+}
+
+.add-button{
+  background-color:#17252A;
+  color:#DEF2F1;
+  border-radius:100%;
+  padding:20px;
+  padding-right:30px;
+  padding-left:30px;
+  font-size:40px;
+  border:none;
+  position:fixed;
+  bottom:30px;
+  right:30px;
+  }
+
+.popup-overlay{
+ background-color:#17252A;
+ opacity:0.7;
+ position:absolute;
+ width:100vw;
+ height:100vh;
+ top:0;
+ left:0;
+ z-index:1;
+ display:none;
+}
+
+.popup-box{
+ background-color:#2B7A78;
+ border-radius:10px;
+ width:40vw;
+ padding:40px;
+ position:absolute;
+ top:20%;
+ left:30%;
+ z-index:2;
+ display:none;
+}
+
+.popup-box input{
+ background:transparent;
+ border:none;
+ width:100%;
+ margin:5px;
+ padding:5px;
+ font-size:20px;
+ border-bottom:solid black 2px;
+ color:#DEF2F1;
+}
+
+.popup-box textarea{
+ background:transparent;
+ background-color:#DEF2F1;
+ width:100%;
+ margin:5px;
+ padding:5px;
+ font-size:20px;
+ border:solid black 2px;
+ border-radius:10px;
+ color:#17252A;
+}
+
+
+::placeholder {
+  color:black;
+  opacity: 0.3; 
+}
+
+.add-notes-button{
+   background-color:#17252A;
+   color:#DEF2F1;
+   border-radius:10px;
+   padding:7px;
+   padding-right:10px;
+   padding-left:10px;
+   margin-top:7px;
+   border:none;
+   font-weight: bold;
+}
+
+.cancel-notes-button{
+   background-color:#17252A;
+   color:#DEF2F1;
+   border-radius:10px;
+   padding:7px;
+   padding-right:10px;
+   padding-left:10px;
+   margin-top:7px;
+   border:none;
+   font-weight: bold;
+}  
+   
+.popup-box input:focus{
+   outline:none;  
+}
+
+.popup-box textarea:focus{
+   outline:none;  
+}
